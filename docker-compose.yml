@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  nginx:
+    image: nginx
+    env_file:
+      - secrets.env
